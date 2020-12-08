@@ -1,0 +1,76 @@
+:root {
+  --background-primary-color: #ffffff;
+  --background-additional-color: #f5f4fa;
+  --accent-background: #2f303a;
+  --button-background: #2196f3;
+  --primary-text-color: #212121;
+  --subsidiary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --additional-text-color: #ffffff;
+  --text-footer-link: rgba(255, 255, 255, 0.6);
+}
+body {
+  background-color: var(--background-primary-color);
+  color: var(--primary-text-color);
+}
+a {
+  text-decoration: none;
+}
+li {
+  display: block;
+}
+.logo-web {
+  color: var(--accent-text-color);
+}
+.logo-studio-header {
+  color: #000000;
+}
+.link-active {
+  color: var(--accent-text-color);
+}
+.nav-item,
+.comand-name {
+  color: var(--primary-text-color);
+}
+.header-address {
+  color: var(--subsidiary-text-color);
+}
+.footer-section {
+  background-color: var(--accent-background);
+}
+.logo-studio-footer {
+  color: var(--additional-text-color);
+}
+.footer-address {
+  color: var(--additional-text-color);
+}
+.footer-link {
+  color: var(--text-footer-link);
+}
+/* index.html */
+.hero-section {
+  background-color: var(--accent-background);
+  color: var(--additional-text-color);
+}
+.button-active {
+  background-color: var(--button-background);
+  color: var(--additional-text-color);
+}
+.ghost-text {
+  display: none;
+}
+.advantages-text,
+.profession {
+  color: var(--subsidiary-text-color);
+}
+/* portfolio.html */
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--background-additional-color);
+}
+.project-name {
+  color: var(--primary-text-color);
+}
+.project-category {
+  color: var(--subsidiary-text-color);
+}
