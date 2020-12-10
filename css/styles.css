@@ -31,7 +31,9 @@ li {
 }
 .page-active,
 .header-address:hover,
-.header-address:focus {
+.header-address:focus,
+.nav-item:hover,
+.nav-item:focus {
   color: var(--accent-color);
 }
 .nav-item,
